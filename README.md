@@ -6,8 +6,9 @@ GitHub page with the purpose to present the code accompanying thesis. The code a
 - The PyTransport directory within this repository is written by *David J. Mulryne and John W. Ronayne. PyTransport: A Python package for the calculation of inflationary correlation functions. arXiv e-prints, art. arXiv:1609.00381, September 2016*. See also: https://transportmethod.com/pytransport/. It is added to this repository for the sake of convenience
 - The code is still heavily under development and not very user friendly.
 
+## Getting started
 
-The text below describes how to use ```trajectory_analyser.py```. The main piece of code that calculates trajectory properties after an evolution by PyTransport.
+To be able to run the evolution for a model, one first needs to compile the model by going to ./potentials and run setup_potential.py where the potential and metric are specified. Only then can a model be run. See the link or paper above for more details. The text below describes how to use ```trajectory_analyser.py```. The main piece of code that calculates trajectory properties after an evolution by PyTransport.
 
 ```
 usage: trajectory_analyser.py [-h] [-i I] [-f F] [-steps STEPS] [-twopt TWOPT]
