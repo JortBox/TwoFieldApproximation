@@ -37,4 +37,4 @@ optional arguments:
   -c C            (float) c parameter supergravity Inflation. Default: 1 (float)
 ```
 
-The preliminary script to patch together multiple evolutions of orbital inflation based on the EGNO model for a set of parameters can be found in ```patching.py```.
+The preliminary script to patch together multiple evolutions of orbital inflation based on the EGNO model for a set of parameters can be found in ```patching.py```. This function may take long ~40 min to run due to the lengthy calculation for the entropy mass of the EGNO model.
