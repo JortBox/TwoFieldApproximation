@@ -1,0 +1,12 @@
+#python
+*.pyc
+__pycache__/
+
+# Mac junk
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+*.icloud
+
+*.ipynb_checkpoints
+*.pdf
