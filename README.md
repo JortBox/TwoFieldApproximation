@@ -7,7 +7,7 @@ GitHub page with the purpose to present the code accompanying thesis. The code a
 - The code is still heavily under development and not very user friendly.
 
 
-The text below describes how to use trajectory_analyser.py. The main piece of code that calculates trajectory properties after an evolution by PyTransport.
+The text below describes how to use '''trajectory_analyser.py'''. The main piece of code that calculates trajectory properties after an evolution by PyTransport.
 
 ```
 usage: trajectory_analyser.py [-h] [-i I] [-f F] [-steps STEPS] [-twopt TWOPT]
@@ -36,3 +36,5 @@ optional arguments:
   -a A            (float) a parameter supergravity Inflation.Default: 0 (float) 
   -c C            (float) c parameter supergravity Inflation. Default: 1 (float)
 ```
+
+The preliminary script to patch together multiple evolutions of orbital inflation based on the EGNO model for a set of parameters can be found in '''patching.py'''.
